@@ -85,7 +85,7 @@ public class Week3Lab {
 		}
 		System.out.println("Average age: " + ageTotal / ages.length);
 	    //Enhanced for loop practice above
-		//ageTotal is a double bc if it was an int, it would create a rounding error line 30
+		//ageTotal is a double bc if it was an int, it would create a rounding error line 86
 		
 		//Code block below follows requirements of Step #2
 		String[] names = new String[6];
@@ -96,7 +96,6 @@ public class Week3Lab {
 		names[4] = "Buck";
 		names[5] = "Bill";
 		//Using the same initialization as the int array doesn't seem to work for strings
-		//Creating the array this way takes up more space and will ideally be improved later
 		double letterCount = 0;
 		for(String name : names) {
 			letterCount += name.length();
@@ -109,7 +108,7 @@ public class Week3Lab {
 			nameConc += " ";
 		}
 		System.out.println("Concatenation of all names: " + nameConc);
-		//Could be done in the first loop, but kept separate for grading clarity
+		//Could be done in the first loop, but kept separate for clarity
 		
 		//Answer to 3, for array named "arrayName" it is arrayName[arrayName.length - 1];
 		//Answer to 4, for array named "arrayName" it is arrayName[0];
